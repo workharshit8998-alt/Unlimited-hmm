@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#fff0f5">
+<meta name="description" content="The official unofficial archive of Pragya's legendary hmm moments.">
+<title>Pragya™ — The Hmm Department</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap');
+:root{--pink:#ff5c9a;--ink:#261a25;--muted:#806c7b;--paper:#fff9fc;--line:#f4dce8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}.brand{font-weight:800;letter-spacing:-.5px}.brand span{color:var(--pink)}.navtag{font-size:12px;color:var(--muted);border:1px solid var(--line);padding:9px 13px;border-radius:99px;background:white}
+.hero{padding:48px 0 72px;display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center}.eyebrow{color:var(--pink);font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase}.hero h1{font:800 clamp(48px,8vw,88px)/.98 'Playfair Display',serif;letter-spacing:-3px;margin:17px 0}.hero h1 em{color:var(--pink);font-style:normal}.hero p{color:var(--muted);font-size:17px;line-height:1.7;max-width:510px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{border:0;border-radius:14px;padding:14px 19px;font-weight:800;cursor:pointer;font-size:14px}.primary{background:var(--pink);color:white;box-shadow:0 9px 22px #ff5c9a35}.secondary{background:white;border:1px solid var(--line);color:var(--ink)}
+.profile{background:linear-gradient(145deg,#ffe0ed,#fff2f7);border:1px solid #f8cddd;border-radius:30px;padding:18px;transform:rotate(2deg);box-shadow:0 22px 60px #d84c8420}.photo{height:300px;border-radius:22px;background:linear-gradient(135deg,#ffd3e5,#fff5fa);display:grid;place-items:center;text-align:center;color:#b45c82;overflow:hidden}.photo .face{font-size:100px}.photo small{display:block;font-weight:700;margin-top:10px}.profile-foot{display:flex;justify-content:space-between;align-items:center;padding:16px 4px 3px;font-weight:800}.pill{background:white;color:var(--pink);padding:7px 11px;border-radius:99px;font-size:11px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:10px 0 70px}.stat{background:white;border:1px solid var(--line);border-radius:20px;padding:22px}.stat strong{display:block;font:800 32px 'Playfair Display',serif;color:var(--pink)}.stat span{font-size:12px;color:var(--muted);font-weight:700}
+section{padding:35px 0 65px}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:22px}.section-head h2{font:800 38px 'Playfair Display',serif;margin:8px 0}.section-head p{color:var(--muted);font-size:13px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:23px}.emoji{font-size:27px}.card h3{margin:13px 0 7px;font-size:17px}.card p{color:var(--muted);font-size:13px;line-height:1.65;margin:0}
+.biodata{display:grid;grid-template-columns:1fr 1fr;gap:15px}.bioitem{display:flex;justify-content:space-between;gap:15px;padding:15px 0;border-bottom:1px solid var(--line);font-size:14px}.bioitem span:first-child{color:var(--muted)}.bioitem b{text-align:right}
+.quote{background:#2b1d29;color:white;border-radius:28px;padding:36px;text-align:center}.quote .big{font:800 clamp(30px,5vw,54px) 'Playfair Display',serif;margin:12px 0}.quote p{color:#e6cbd9}
+.meme{min-height:150px;display:grid;place-items:center;text-align:center;background:#fff0f6;border-radius:18px;padding:18px;font-weight:800;font-size:19px}.meme small{display:block;color:var(--pink);font-size:10px;letter-spacing:1.5px;margin-bottom:10px}
+footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:12px;text-align:center}
+#hmmCount{font-variant-numeric:tabular-nums}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:25px}.profile{max-width:440px;margin:5px auto}.stats{gap:8px}.stat{padding:15px}.stat strong{font-size:25px}.grid{grid-template-columns:1fr 1fr}.biodata{grid-template-columns:1fr}.section-head{display:block}.hero h1{letter-spacing:-2px}}
+@media(max-width:450px){.grid{grid-template-columns:1fr}.photo{height:250px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><div class="brand">PRAGYA<span>™</span></div><div class="navtag">THE OFFICIAL UNOFFICIAL FANPAGE ✿</div></nav>
+<main>
+<div class="hero">
+<div><div class="eyebrow">A very serious investigation</div><h1>The one.<br>The only.<br><em>HMMMM.</em></h1><p>Welcome to the official archive of Pragya — a human being, a mystery, and the undisputed world champion of saying “hmm” without providing any further information.</p><div class="actions"><a class="btn primary" href="#biodata">Explore her biodata ↘</a><button class="btn secondary" id="hmmBtn">Make her say hmm</button></div></div>
+<div class="profile"><div class="photo" id="photo"><div><div class="face">🎀</div><small>PRAGYA'S PHOTO GOES HERE</small><small style="font-weight:500">Photo placeholder — awaiting the main character</small></div></div><div class="profile-foot"><span>Pragya ✨</span><span class="pill">HMM CERTIFIED</span></div></div>
+</div>
+<div class="stats">
+<div class="stat"><strong id="hmmCount">∞</strong><span>HMMs PER CONVERSATION</span></div>
+<div class="stat"><strong>100%</strong><span>MYSTERY LEVEL</span></div>
+<div class="stat"><strong>0.2s</strong><span>TIME TO SAY “HMM”</span></div>
+</div>
+<section id="biodata"><div class="section-head"><div><div class="eyebrow">Confidential-ish file</div><h2>Her biodata 📋</h2></div><p>Compiled by totally unbiased sources (me).</p></div>
+<div class="card biodata">
+<div><div class="bioitem"><span>Name</span><b>Pragya</b></div><div class="bioitem"><span>Known for</span><b>“Hmm hmm”</b></div><div class="bioitem"><span>Special skill</span><b>Replying in riddles</b></div><div class="bioitem"><span>Communication style</span><b>Minimalist mystery</b></div></div>
+<div><div class="bioitem"><span>Favourite activity</span><b>Making people guess</b></div><div class="bioitem"><span>Power level</span><b>Unlimited ♾️</b></div><div class="bioitem"><span>Threat level</span><b>Adorably confusing</b></div><div class="bioitem"><span>Official title</span><b>CEO of Hmm Ltd.</b></div></div>
+</div></section>
+<section><div class="section-head"><div><div class="eyebrow">Professional qualifications</div><h2>Core abilities 🏆</h2></div></div><div class="grid">
+<div class="card"><div class="emoji">🧠</div><h3>Mind reader (allegedly)</h3><p>Expects you to understand the entire situation from one “hmm”.</p></div>
+<div class="card"><div class="emoji">♾️</div><h3>Infinite hmm generator</h3><p>No battery required. No known upper limit. Scientists remain confused.</p></div>
+<div class="card"><div class="emoji">🎭</div><h3>Professional suspense</h3><p>Can turn a two-second reply into a full investigation.</p></div>
+</div></section>
+<section><div class="quote"><div class="eyebrow" style="color:#ff9fc2">Her most iconic quote</div><div class="big">“Hmm.”</div><p>Short. Powerful. Leaves 47 unanswered questions.</p><button class="btn primary" id="quoteBtn">Generate another hmm</button></div></section>
+<section><div class="section-head"><div><div class="eyebrow">Exhibits A, B & C</div><h2>Meme department 😂</h2></div></div><div class="grid">
+<div class="meme"><div><small>WHEN I ASK A SIMPLE QUESTION</small>Pragya: Hmm 🤨</div></div>
+<div class="meme"><div><small>ME WAITING FOR THE REST OF THE SENTENCE</small>⌛⌛⌛</div></div>
+<div class="meme"><div><small>HER VOCABULARY UPDATE</small>Hmm 2.0 — now with extra hmm</div></div>
+</div></section>
+</main>
+<footer>Made with 💗 and approximately 9,000 unanswered hmms. This is a playful fanpage, not an official biography.</footer>
+</div>
+<script>
+let count=0;const lines=['Hmm.','Hmmm hmm.','HMMMMMMMM.','Hmm?','Hmm hmm hmm.','...hmm 💗'];const countEl=document.getElementById('hmmCount');
+document.getElementById('hmmBtn').addEventListener('click',()=>{count++;countEl.textContent=count;document.querySelector('.hero h1').innerHTML='The one.<br>The only.<br><em>'+lines[count%lines.length]+'</em>';});
+document.getElementById('quoteBtn').addEventListener('click',()=>{document.querySelector('.quote .big').textContent=lines[Math.floor(Math.random()*lines.length)];});
+</script>
+</body></html>
